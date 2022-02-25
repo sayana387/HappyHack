@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "taki-happyHack",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "taki-happyHack"
+	}
+}

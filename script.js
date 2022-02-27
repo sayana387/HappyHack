@@ -1,13 +1,7 @@
 jQuery(function($) {
-    $('.box').bgSwitcher({
+    $('.bg-slider').bgSwitcher({
         images: ['images/background1.jpg','images/background2.jpg','images/background3.jpg','images/background4.jpg','images/background5.jpg'],
-        interval: 5000,
-        loop: true,
-        shuffle: true,
-        effect: "drop",
-        duration: 2000,
-        easing: "swing"
-    });
+      });  
 });
 
 particlesJS('hoge',{
@@ -154,7 +148,7 @@ particlesJS('hoge',{
 $('.slider').slick({
   autoplay: false,//自動的に動き出すか。初期値はfalse。
   infinite: true,//スライドをループさせるかどうか。初期値はtrue。
-  slidesToShow: 4,//スライドを画面に3枚見せる
+  slidesToShow: 4,//スライドを画面に4枚見せる
   slidesToScroll: 1,//1回のスクロールで1枚の写真を移動して見せる
   prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
   nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
@@ -163,13 +157,28 @@ $('.slider').slick({
     {
     breakpoint: 480,//モニターの横幅が769px以下の見せ方
     settings: {
-      slidesToShow: 2,//スライドを画面に2枚見せる
-      slidesToScroll: 2,//1回のスクロールで2枚の写真を移動して見せる
+      slidesToShow: 1,//スライドを画面に2枚見せる
+      slidesToScroll: 1,//1回のスクロールで1枚の写真を移動して見せる
     }
   }],
 
     respondTo: 'slider'
   });
 
+  $(document).ready(function(){
+    $('.fuwat').css('visibility','hidden');
+    $(window).scroll(function(){
+     var windowHeight = $(window).height(),
+         topWindow = $(window).scrollTop();
+     $('.fuwat').each(function(){
+      var objectPosition = $(this).offset().top;
+      if(topWindow > objectPosition - windowHeight + 200){
+       $(this).addClass("fuwatAnime");
+      }
+     });
+    });
+  });
+  
 
+  
 

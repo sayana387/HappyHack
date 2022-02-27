@@ -27,7 +27,7 @@
     position: relative;
   }
 
-  header .box {
+  header .bg-slider {
     width: 100vw;
     height: 100vh;
     background-position: center;
@@ -37,13 +37,13 @@
   }
 
 
-  header .box img{
+  header .bg-slider img{
 
    width: 800px;
    height: 200px;
    position: absolute;
-   top: 200px;
-   left: 300px;
+   top: 190px;
+   left: 315px;
 
 
   
@@ -72,14 +72,15 @@
 
   header ul a:hover{
     color: #3D5CDB;
+    transition: 0.5s ;
   }
 
   header h2{
     font-size: 40px;
     position: absolute;
-    top: 450px;
+    top: 470px;
     left: 550px;
-    color: #3D5CDB;
+    color: #ffffff;
     font-family:Futura-MedObl;
    
     
@@ -114,6 +115,8 @@
     text-align: left;
     width: 400px;
     margin: 60px;
+    position: relative;
+  
   }
 
   .introduction-content1-pa p{
@@ -127,15 +130,19 @@
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.1em;
-    background-color: #0000ff;
+    background-color: #3D5CDB;
     width: 160px;
     line-height:40px;
     display: inline-block;
     background-repeat: 16px;
-    border-radius: 6px;
+    border-radius: 12px;
     text-decoration: none;
     text-align: center;
     color: #ffffff;
+    position: absolute;
+    top: 220px; ;
+    left: 120px;
+    
   }
 
   .introduction-content2{
@@ -153,6 +160,7 @@
     text-align: left;
     width: 400px;
     margin: 60px;
+    position: relative;
   }
 
   .introduction-content2-pa p{
@@ -169,7 +177,7 @@
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.1em;
-    background-color: #0000ff;
+    background-color: #FFbF00;
     width: 160px;
     line-height:40px;
     display: inline-block;
@@ -178,6 +186,9 @@
     text-decoration: none;
     text-align: center;
     color: #ffffff;
+    position: absolute;
+    top: 220px; ;
+    left: 120px;
   }
 
   #hoge{
@@ -186,6 +197,7 @@
     background-size:cover;
     position: relative;
     z-index: 1;
+    
  
     
   }
@@ -195,6 +207,7 @@
     top: 0;
     left: 0;
     z-index: 2;
+    
   }
 
   .courses{
@@ -207,10 +220,11 @@
     text-align: center;
     font-size: 60px;
     color: #3D5CDB;
-    margin: 20px;
+  
     font-family: Futura-Bol;
     position: relative;
     z-index: 5;
+    
     
   }
 
@@ -445,9 +459,40 @@
      padding: 60px;
    }
 
+   footer{
+    text-align: center;
+    color: #3D5CDB;
+    font-family: Futura-Boo;
+    font-size: 20px;
+   
+    line-height: 1280px;
+  }
+
+  .fuwatAnime {
+    -webkit-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:1.5s;
+    -ms-animation-duration:1.5s;
+    animation-duration:1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+   }
+   @-webkit-keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+   }
+   @keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+   }
+
+
    @media all and (max-width:480px){
 
-    header .box {
+    header .bg-slider {
 
       background-position: center;
       background-size: cover;
@@ -456,7 +501,7 @@
       width: 100vw;
       height:100vh;
     }
-    header .box img{
+    header .bg-slider img{
         width: 60vw;
         height: 15vw;
         position: absolute;
@@ -540,6 +585,7 @@
 
   .access h2{
     font-size: 40px;
+    margin-top: 60px;
 
   }
 
@@ -549,10 +595,12 @@
     top: 30px;
     left:0px;
     padding:40px;
-    width: 80vw;
-    height: 40vh;
+    width: 100vw;
+    
+   
   }
 
   
+   
 
-   }
+}

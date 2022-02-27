@@ -1,33 +1,43 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-@font-face {
+
+
+  @font-face {
     font-family:Futura-MedObl;
     src: url(fonts/Futura-MedObl.ttf);
+  }
 
+  @font-face {
     font-family: Futura-Bol;
     src: url(fonts/Futura-Bol.ttf);
-    
-    
-}
+  }
 
-header{
+  @font-face{
+     
+    font-family: Futura-Boo;
+    src: url(fonts/Futura-Boo.ttf);
+  }
+
+  header{
     height: 100vh;
-}
+    position: relative;
+  }
 
-header .box {
+  header .box {
     width: 100vw;
     height: 100vh;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     overflow: hidden;
     position: relative;
-}
+  }
 
 
-header .box img{
+  header .box img{
 
    width: 800px;
    height: 200px;
@@ -35,63 +45,85 @@ header .box img{
    top: 200px;
    left: 300px;
 
-  
-}
 
-header h2{
+  
+  }
+
+  header ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 60px;
+    margin-top: 40px;
+
+ }
+
+  header ul a{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-family:Futura-Boo;
+   
+  }
+
+  header ul a:hover{
+    color: #3D5CDB;
+  }
+
+  header h2{
     font-size: 40px;
-    text-align: center;
     position: absolute;
     top: 450px;
-    left: 450px;
+    left: 550px;
     color: #3D5CDB;
     font-family:Futura-MedObl;
    
     
-}
+  }
 
-.introduction{
+  .introduction{
     margin: 20px;
     
-}
+  }
 
-.introduction h2{
+  .introduction h2{
     font-size: 60px;
     text-align: center;
     color:#3D5CDB;
     font-family: Futura-Bol;
     margin-top: 60px;
-}
+  }
 
 
-.introduction-content1{
+  .introduction-content1{
     display: flex;
     justify-content:center;
     margin: 10px;
-}
+  }
 
-.introduction-content1 img{
+  .introduction-content1 img{
     width: 400px;
     height:240px;
     margin: 60px;
-}
-.introduction-content1-pa{
+  }
+  .introduction-content1-pa{
     text-align: left;
     width: 400px;
     margin: 60px;
-}
+  }
 
-.introduction-content1-pa p{
+  .introduction-content1-pa p{
     font-size: 16px;
     margin-bottom: 20px;
     line-height:30px;
-}
+  }
 
-.introduction-content1-pa a{
-    text-align: center;
-}
 
-.introduction-content1 a{
+  .introduction-content1 a{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.1em;
@@ -104,36 +136,36 @@ header h2{
     text-decoration: none;
     text-align: center;
     color: #ffffff;
-}
+  }
 
-.introduction-content2{
+  .introduction-content2{
     display: flex;
     justify-content:center;
     margin: 10px;
-}
+  }
 
-.introduction-content2 img{
+  .introduction-content2 img{
     width: 400px;
     height:240px;
     margin: 60px;
-}
-.introduction-content2-pa{
+  }
+  .introduction-content2-pa{
     text-align: left;
     width: 400px;
     margin: 60px;
-}
+  }
 
-.introduction-content2-pa p{
+  .introduction-content2-pa p{
     font-size: 16px;
     margin-bottom: 20px;
     line-height:30px;
-}
-
-.introduction-content2-pa a{
+  }
+  
+  .introduction-content2-pa a{
     text-align: center;
-}
+  }
 
-.introduction-content2 a{
+  .introduction-content2 a{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.1em;
@@ -146,90 +178,381 @@ header h2{
     text-decoration: none;
     text-align: center;
     color: #ffffff;
-}
+  }
 
-
-#particles-js{
+  #hoge{
+  
+    background-color:#D7E4F9;
+    background-size:cover;
+    position: relative;
+    z-index: 1;
+ 
     
-    background-color: #dceaff;
-    background-size: contain;
- }
+  }
 
-.courses{
-    padding: 30px;
-    margin-bottom: 40px;
-}
-.courses h2{
+  canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .courses{
+    
+  margin-top: 40px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  }
+  .courses h2{
     text-align: center;
     font-size: 60px;
     color: #3D5CDB;
     margin: 20px;
     font-family: Futura-Bol;
+    position: relative;
+    z-index: 5;
     
-}
+  }
 
-.courses-cards1{
+  .courses-cards1{
     display: flex;
+    flex-wrap: wrap;
     justify-content:center ;
+    position: relative;
+    z-index: 3;
 
-}
+  }
 
-.courses-card{
+  .courses-card{
  background:#ffffff no-repeat;
- background-size: auto;
+ background-size: 180px 390px;
  margin: 10px;
  padding: 60px 40px;
  border-radius: 12px;
  
+ 
 
-}
+  }
 
-.courses-card img{
-    text-align: center;
-    margin: 10px;
+  
+
+  .courses-card img{
+    margin: 0 28px;
     width: 80px;
     height: 80px;
     
     
+    
    
-}
+  }
 
 
-.courses-card p{
+  .courses-card p{
     font-size: 15px;
     text-align: center;
     font-weight: bold;
     margin: 20px;
     color: black;
-}
-
-.courses-card a{
-    text-decoration: none;
-    font-size: 12px;
-    background:orange;
-    padding: 16px;
-    margin: 5px;
-    border-radius: 12px;
+  }
+  .courses-card a{
     font-weight: bold;
     color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+ 
+
+ 
+  .courses-card-a1{
+    
+    background:#ff4500;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 12px;
+    
+    
+  }
+  .courses-card-a1:hover{
+    box-shadow: 5px 5px 5px #3a3838;
+    
+  }
+
+  .courses-card-a2{
+    
+    background:#00bfff;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 12px;
+  }
+  .courses-card-a2:hover{
+    box-shadow: 5px 5px 5px #3a3838;
+    
+  }
+  .courses-card-a3{
+    background:#252525;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 12px;
+  
+  }
+  .courses-card-a3:hover{
+    box-shadow: 5px 5px 5px #3a3838;
+    
+  }
+  .courses-card-a4{
+    background:#ff5278;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 12px;
+  }
+  .courses-card-a4:hover{
+    box-shadow: 5px 5px 5px #3a3838;
+    
+  }
+  .courses-card-a5{
+    background:#f7d645;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 12px;
+  }
+  .courses-card-a5:hover{
+    box-shadow: 5px 5px 5px #3a3838;
+    
+  }
+  .courses-card-a6{
+    background:orange;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 12px;
+  }
+  .courses-card-a6:hover{
+    box-shadow: 5px 5px 5px #3a3838;
+    
+  }
+  .courses-card-a7{
+    background:#8ce4fa;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 12px;
+  }
+  .courses-card-a7:hover{
+    box-shadow: 5px 5px 5px #3a3838;
+    
+  }
+  .courses-cards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    position: relative;
+    z-index: 4;
+   
+   
+
+  }
+
   
 
-}
-
-.courses-cards2{
-    display: flex;
-    justify-content:center ;
-    margin-bottom: 20px;
-
-}
 
 
-.images h2{
+  .images h2{
     font-size: 60px;
     text-align: center;
     color:#3D5CDB;
     font-family: Futura-Bol;
     margin-top: 60px; 
-}
+  }
 
 
+  .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:94%;
+    margin:30px auto;
+   }
+ 
+   .slider img {
+     width:100%;/*スライダー内の画像を横幅100%に*/
+     height:auto;
+   }
+ 
+
+ 
+ /*矢印の設定*/
+ 
+ /*戻る、次へ矢印の位置*/
+   .slick-prev, 
+   .slick-next {
+     position: absolute;/*絶対配置にする*/
+     top: 42%;
+     cursor: pointer;/*マウスカーソルを指マークに*/
+     outline: none;/*クリックをしたら出てくる枠線を消す*/
+     border-top: 2px solid #666;/*矢印の色*/
+     border-right: 2px solid #666;/*矢印の色*/
+     height: 15px;
+     width: 15px;
+   }
+ 
+   .slick-prev {/*戻る矢印の位置と形状*/
+     left: -1.5%;
+     transform: rotate(-135deg);
+   }
+ 
+   .slick-next {/*次へ矢印の位置と形状*/
+     right: -1.5%;
+     transform: rotate(45deg);
+   }
+ 
+   /*ドットナビゲーションの設定*/
+ 
+   .slick-dots {
+     text-align:center;
+     margin:20px 0 0 0;
+   }
+ 
+   .slick-dots li {
+     display:inline-block;
+     margin:0 5px;
+   }
+ 
+   .slick-dots button {
+     color: transparent;
+     outline: none;
+     width:8px;/*ドットボタンのサイズ*/
+     height:8px;/*ドットボタンのサイズ*/
+     display:block;
+     border-radius:50%;
+     background:#ccc;/*ドットボタンの色*/
+   }
+ 
+   .slick-dots .slick-active button{
+     background:#333;/*ドットボタンの現在地表示の色*/
+   }
+ 
+   .access{
+     position: relative;
+   }
+   .access h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #3D5CDB;
+    margin: 20px;
+    font-family: Futura-Bol;
+   }
+
+   .access iframe{
+     position: absolute;
+     top: 40px;
+     left:360px;
+     padding: 60px;
+   }
+
+   @media all and (max-width:480px){
+
+    header .box {
+
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+      position: relative;
+      width: 100vw;
+      height:100vh;
+    }
+    header .box img{
+        width: 60vw;
+        height: 15vw;
+        position: absolute;
+        top: 300px ;
+        left: 100px;
+    }
+
+    header ul{
+      display: none;
+    }
+
+    header h2{
+      font-size: 20px;
+      position: absolute;
+      top: 380px;
+      left: 140px;
+      color: #fff;
+    }
+
+  
+
+    .introduction h2{
+      font-size: 30px;
+      margin: 40px;
+    }
+
+    .introduction-content1{
+      display:flex;
+      justify-content:block;
+      margin:10px;
+      position: relative;
+
+      
+    }
+
+    .introduction-content1 img{
+      width: 80vw;
+      height:30vh;
+      margin: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .introduction-content1-pa{
+      
+  
+    }
+
+    .introduction-content2{
+      display:flex;
+      justify-content:block;
+      margin:10px;
+      position: relative;
+    }
+       
+     .introduction-content2 img{
+      width: 80vw;
+      height:30vh;
+      margin: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+   .courses h2{
+    font-size: 40px;
+  }
+
+  .courses-card{
+    background-size: 90px 195px;
+    margin: 5px;
+    padding: 30px 20px;
+    border-radius: 6px;
+  }
+
+  .slider img {
+     width:100%;/*スライダー内の画像を横幅100%に*/
+     height:auto;
+   }
+
+  .access h2{
+    font-size: 40px;
+
+  }
+
+
+  .access iframe{
+    position: absolute;
+    top: 30px;
+    left:0px;
+    padding:40px;
+    width: 80vw;
+    height: 40vh;
+  }
+
+  
+
+   }

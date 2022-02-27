@@ -3,39 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale=1.0">
+    
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slick.css">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="jquery.bgswitcher.js"></script>
-    <script src="script.js"></script>
-    <script src="particles.min.js"></script>
-    <script src="setting.js"></script>
-   
-  
-    
-    
-    
-
-   
-
-   
-    
+     
 </head>
 <body>
     <header>
 
         <div class="box">
-          
              <img src="images/logo.png" alt="">
              <h2>We are Web Designers.</h2>
-          
         </div>
+
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#access">Access</a></li>
+        </ul>
 
     </header>
 
-    <section class="introduction">
+    <section class="introduction" id="intro">
+      
         <h2>Introduction</h2>
         <div class="introduction-content1">
             <img src="introduction_001.jpg" alt="">
@@ -50,7 +43,7 @@
         </div>
 
         <div class="introduction-content2">
-            <div class="introduction-content1-pa">
+            <div class="introduction-content2-pa">
              <p>Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。<br>
                 WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。<br>
                 自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。
@@ -60,62 +53,84 @@
             <img src="introduction_002.jpg" alt=""> 
 
         </div>
+   
 
     </section>
-   <div id="particles-js">
-    <section class="courses">
-     
+   
+    <section class="courses" id="courses">
+      <div id="hoge">
         <h2>Courses </h2>  
         <div class="courses-cards1">
+
            <div class="courses-card">
             <img src="images/html.png" alt="">
             <p>HTMLコース</p>
-            <a href="">このコースを受ける</a>
+            <div class="courses-card-a1">
+               <a href="">このコースを受ける</a>
+            </div>
            </div>
+
            <div class="courses-card">
             <img src="images/css.png" alt="">
             <p>CSSコース</p>
-            <a href="">このコースを受ける</a>
+            <div class="courses-card-a2">
+              <a href="">このコースを受ける</a>
+            </div>
            </div>
+
            <div class="courses-card">
             <img src="images/unity.png" alt="">
             <p>Unityコース</p>
-            <a href="">このコースを受ける</a>
+            <div class="courses-card-a3">
+              <a href="">このコースを受ける</a>
+            </div>
            </div>
+
            <div class="courses-card">
             <img src="images/ruby.png" alt="">
             <p>Rubyコース</p>
-            <a href="">このコースを受ける</a>
+            <div class="courses-card-a4">
+              <a href="">このコースを受ける</a>
+            </div>
            </div>
 
         </div>
 
         <div class="courses-cards2">
+
             <div class="courses-card">
              <img src="images/js.png" alt="">
              <p>javaScriptコース</p>
-             <a href="">このコースを受ける</a>
+             <div class="courses-card-a5">
+                <a href="">このコースを受ける</a>
+             </div>
             </div>
+
             <div class="courses-card">
              <img src="images/swift.png" alt="">
              <p>Swiftコース</p>
-             <a href="">このコースを受ける</a>
+             <div class="courses-card-a6">
+                <a href="">このコースを受ける</a>
+             </div>
             </div>
+
             <div class="courses-card">
              <img src="images/go.png" alt="">
              <p>Goコース</p>
-             <a href="">このコースを受ける</a>
+             <div class="courses-card-a7">
+                <a href="">このコースを受ける</a>
+             </div>
             </div>
             
  
          </div>
         
-      
+      </div>
 
     </section>
-  </div>
+  
 
-  <section class="images">
+  <section class="images" id="images">
       <h2>Images</h2>
 
         <ul class="slider">
@@ -128,6 +143,20 @@
           <!--/slider-->
        </ul>
   </section>
+
+  <section class="access" id="access">
+      <h2>Access</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3129539477495!2d135.49025991501713!3d34.6972856909093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1645813511974!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="jquery.bgswitcher.js"></script>
+ <script src="particles.min.js"></script>
+ <script src="slick.min.js"></script>
+ <script src="script.js"></script>
+ 
+ 
+   
     
 </body>
 </html>

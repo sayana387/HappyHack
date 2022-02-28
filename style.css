@@ -624,14 +624,14 @@
   }
 
   .courses-card p{
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     font-weight: bold;
     margin: 20px;
     color: black;
     position: absolute;
     top:20vh;
-    left:5vw;
+    left:6vw;
   }
 
   .courses-card-a1{
@@ -642,7 +642,7 @@
     border-radius: 8px;
     position: absolute;
     top:28vh;
-    left:3.5vw;
+    left:3vw;
    
   }
 
@@ -654,7 +654,7 @@
     border-radius: 8px;
     position: absolute;
     top:28vh;
-    left:3.5vw;
+    left:3vw;
   }
 
   .courses-card-a3{
@@ -664,7 +664,7 @@
     border-radius: 8px;
     position: absolute;
     top:28vh;
-    left:3.5vw;
+    left:3vw;
   
   }
 
@@ -675,7 +675,7 @@
     border-radius: 8px;
     position: absolute;
     top:28vh;
-    left:3.5vw;
+    left:3vw;
   }
 
   .courses-card-a5{
@@ -685,7 +685,7 @@
     border-radius: 8px;
     position: absolute;
     top:28vh;
-    left:3.5vw;
+    left:3vw;
   }
 
   .courses-card-a6{
@@ -695,7 +695,7 @@
     border-radius: 8px;
     position: absolute;
     top:28vh;
-    left:3.5vw;
+    left:3vw;
   }
  
   .courses-card-a7{
@@ -705,7 +705,7 @@
     border-radius: 8px;
     position: absolute;
     top:28vh;
-    left:3.5vw;
+    left:3vw;
   }
 
   .slider img {

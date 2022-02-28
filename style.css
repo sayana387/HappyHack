@@ -639,9 +639,9 @@
     background:#ff4500;
     padding: 4px 10px;
     margin: 5px;
-    border-radius: 12px;
+    border-radius: 8px;
     position: absolute;
-    top:27vh;
+    top:28vh;
     left:3.5vw;
    
   }
@@ -651,9 +651,9 @@
     background:#00bfff;
     padding: 4px 10px;
     margin: 5px;
-    border-radius: 6px;
+    border-radius: 8px;
     position: absolute;
-    top:27vh;
+    top:28vh;
     left:3.5vw;
   }
 
@@ -661,9 +661,9 @@
     background:#252525;
     padding: 4px 10px;
     margin: 5px;
-    border-radius: 12px;
+    border-radius: 8px;
     position: absolute;
-    top:27vh;
+    top:28vh;
     left:3.5vw;
   
   }
@@ -672,9 +672,9 @@
     background:#ff5278;
     padding:4px 10px;
     margin: 5px;
-    border-radius: 12px;
+    border-radius: 8px;
     position: absolute;
-    top:27vh;
+    top:28vh;
     left:3.5vw;
   }
 
@@ -682,9 +682,9 @@
     background:#f7d645;
     padding: 4px 10px;
     margin: 5px;
-    border-radius: 12px;
+    border-radius: 8px;
     position: absolute;
-    top:27vh;
+    top:28vh;
     left:3.5vw;
   }
 
@@ -692,19 +692,19 @@
     background:orange;
     padding: 4px 10px;
     margin: 5px;
-    border-radius: 12px;
+    border-radius: 8px;
     position: absolute;
-    top:27vh;
+    top:28vh;
     left:3.5vw;
   }
  
   .courses-card-a7{
     background:#8ce4fa;
     padding: 4px 10px;
-    margin: 5px;
-    border-radius: 12px;
+    margin: 6px;
+    border-radius: 8px;
     position: absolute;
-    top:27vh;
+    top:28vh;
     left:3.5vw;
   }
 

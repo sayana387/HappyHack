@@ -604,7 +604,7 @@
   .courses-card{
     background:#ffffff no-repeat;
     width :20vw ;
-    height:30vh;
+    height:20vh;
     margin: 10px;
     padding: 60px 40px;
     border-radius: 12px;
@@ -618,7 +618,7 @@
   .courses-card img{
     width:16vw;
     position: absolute;
-    top:8vh;
+    top:5vh;
     left:4vw;
     
   }
@@ -630,82 +630,82 @@
     margin: 20px;
     color: black;
     position: absolute;
-    top:26vh;
+    top:20vh;
     left:5vw;
   }
 
   .courses-card-a1{
     
     background:#ff4500;
-    padding: 10px 16px;
+    padding: 8px 14px;
     margin: 5px;
     border-radius: 12px;
     position: absolute;
-    top:35vh;
-    left:3vw;
+    top:27vh;
+    left:3.5vw;
    
   }
 
   .courses-card-a2{
     
     background:#00bfff;
-    padding: 10px 16px;
+    padding: 8px 14px;
     margin: 5px;
     border-radius: 12px;
     position: absolute;
-    top:35vh;
-    left:3vw;
+    top:27vh;
+    left:3.5vw;
   }
 
   .courses-card-a3{
     background:#252525;
-    padding: 10px 16px;
+    padding: 8px 14px;
     margin: 5px;
     border-radius: 12px;
     position: absolute;
-    top:35vh;
-    left:3vw;
+    top:27vh;
+    left:3.5vw;
   
   }
 
   .courses-card-a4{
     background:#ff5278;
-    padding: 10px 16px;
+    padding: 8px 14px;
     margin: 5px;
     border-radius: 12px;
     position: absolute;
-    top:35vh;
-    left:3vw;
+    top:27vh;
+    left:3.5vw;
   }
 
   .courses-card-a5{
     background:#f7d645;
-    padding: 10px 16px;
+    padding: 8px 14px;
     margin: 5px;
     border-radius: 12px;
     position: absolute;
-    top:35vh;
-    left:3vw;
+    top:27vh;
+    left:3.5vw;
   }
 
   .courses-card-a6{
     background:orange;
-    padding: 10px 16px;
+    padding: 8px 14px;
     margin: 5px;
     border-radius: 12px;
     position: absolute;
-    top:35vh;
-    left:3vw;
+    top:27vh;
+    left:3.5vw;
   }
  
   .courses-card-a7{
     background:#8ce4fa;
-    padding: 10px 16px;
+    padding: 8px 14px;
     margin: 5px;
     border-radius: 12px;
     position: absolute;
-    top:35vh;
-    left:3vw;
+    top:27vh;
+    left:3.5vw;
   }
 
   .slider img {
@@ -726,10 +726,20 @@
     left:-40px;
     padding:40px;
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
     
    
   }
+
+  footer{
+    text-align: center;
+    color: #3D5CDB;
+    font-family: Futura-Boo;
+    font-size: 20px;
+   
+    line-height: 480px;
+  }
+
 
   
    

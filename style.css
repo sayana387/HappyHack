@@ -32,7 +32,7 @@
     height: 100vh;
     background-position: center;
     background-size: cover;
-    overflow: hidden;
+ 
     position: relative;
   }
 
@@ -105,17 +105,19 @@
     justify-content:center;
     margin: 10px;
   }
-
-  .introduction-content1-image{
-    background-image:url(introduction_001.jpg);
-    
+  .introduction-content1-image img{
+     
+    width: 30vw;
+    margin: 20px;
+  
 
   }
+  
 
   .introduction-content1-pa{
     text-align: left;
     width: 400px;
-    margin: 60px;
+    margin: 20px;
     position: relative;
   
   }
@@ -149,18 +151,19 @@
   .introduction-content2{
     display: flex;
     justify-content:center;
-    margin: 10px;
-  }
-
-  .introduction-content2 img{
-    width: 400px;
-    height:240px;
     margin: 60px;
   }
+
+  .introduction-content2-image img{
+    width: 30vw; 
+    margin: 20px;
+   
+  }
+
   .introduction-content2-pa{
     text-align: left;
     width: 400px;
-    margin: 60px;
+    margin: 20px;
     position: relative;
   }
 
@@ -170,11 +173,8 @@
     line-height:30px;
   }
   
-  .introduction-content2-pa a{
-    text-align: center;
-  }
 
-  .introduction-content2 a{
+  .introduction-content2-pa a{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.1em;
@@ -183,13 +183,14 @@
     line-height:40px;
     display: inline-block;
     background-repeat: 16px;
-    border-radius: 6px;
+    border-radius: 12px;
     text-decoration: none;
     text-align: center;
     color: #ffffff;
     position: absolute;
     top: 220px; ;
-    left: 120px;
+    left: 100px;
+    margin: 20px;
   }
 
   #hoge{
@@ -198,6 +199,7 @@
     background-size:cover;
     position: relative;
     z-index: 1;
+    height: 960px;
     
  
     
@@ -212,19 +214,19 @@
   }
 
   .courses{
-    
-  margin-top: 40px;
-  padding-top: 40px;
-  margin-bottom: 40px;
+  height: 960px;
+ 
+ 
   }
   .courses h2{
     text-align: center;
     font-size: 60px;
     color: #3D5CDB;
-  
     font-family: Futura-Bol;
     position: relative;
     z-index: 5;
+    padding-top: 50px;
+  
     
     
   }
@@ -235,6 +237,7 @@
     justify-content:center ;
     position: relative;
     z-index: 3;
+    margin-top: 50px;
 
   }
 
@@ -559,43 +562,117 @@
     }
 
     .introduction-content1{
-      display:flex;
-    
-      margin:10px;
-      position: relative;
-
-      
-    }
-
-    .introduction-content1 img{
-      width: 80vw;
-      height:30vh;
+      display: flex;
+      flex-flow: column;
       margin: 10px;
-      position: absolute;
-      top: 0;
-      left: 0;
+    }
+    .introduction-content1-image img{
+
+      width: 80vw; 
+      margin: 10px;
+      
+    }
+    
+  
+    .introduction-content1-pa{
+      text-align: left;
+      width: 400px;
+      margin: 50px 10px;
+      position: relative;
+      display: flex;
+      flex-flow: column;
+      
+    
     }
 
-    .introduction-content1-pa{
-      
+    .introduction-content1-pa p{
+      font-size: 16px;
+      margin-bottom: 20px;
+   
+    }
   
+  
+    .introduction-content1 a{
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      background-color: #3D5CDB;
+      width: 160px;
+      display: inline-block;
+      background-repeat: 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: #ffffff;
+      position: absolute;
+      top: 220px; ;
+      left: 120px;
     }
 
     .introduction-content2{
-      display:flex;
-      justify-content:block;
-      margin:10px;
-      position: relative;
-    }
-       
-     .introduction-content2 img{
-      width: 80vw;
-      height:30vh;
+      display: flex;
+      flex-direction: column-reverse;
       margin: 10px;
-      position: absolute;
-      top: 0;
-      left: 0;
+      position: relative;
+     
     }
+
+    .introduction-content2-pa{
+      text-align: left;
+      width: 400px;
+      margin: 50px 10px;
+      
+  
+    }
+    .introduction-content2-image img{
+     
+      width: 80vw; 
+      margin: 10px;
+ 
+    }
+    
+  
+   
+
+    .introduction-content2-pa p{
+      font-size: 16px;
+      margin-bottom: 20px;
+      line-height:30px;
+    }
+  
+  
+    .introduction-content2 a{
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      background-color: #f7d645;
+      width: 160px;
+      line-height:40px;
+      display: inline-block;
+      background-repeat: 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: #ffffff;
+      position: absolute;
+      top: 240px; ;
+      left: 100px;
+    }
+
+    .courses{
+
+      height: 1360px;
+
+    }
+
+    #hoge{
+  
+      background-color:#D7E4F9;
+      background-size:cover;
+      position: relative;
+      z-index: 1;
+      height: 1360px;
+    }  
 
    .courses h2{
     font-size: 40px;

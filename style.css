@@ -576,7 +576,7 @@
   
     .introduction-content1-pa{
       text-align: left;
-      width: 400px;
+      width: 80vw;
       margin: 50px 10px;
       position: relative;
       display: flex;
@@ -606,7 +606,7 @@
       color: #ffffff;
       position: absolute;
       top: 220px; ;
-      left: 120px;
+      left: 100px;
     }
 
     .introduction-content2{
@@ -619,7 +619,7 @@
 
     .introduction-content2-pa{
       text-align: left;
-      width: 400px;
+      width: 80vw;
       margin: 50px 10px;
       
   

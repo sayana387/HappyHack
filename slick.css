@@ -118,5 +118,9 @@
     display: none;
 }
 
+.slick-next:before, .slick-prev:before{
+    color:#000 !important;
+  }
+
 
 

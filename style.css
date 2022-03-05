@@ -717,6 +717,7 @@ footer span{
 
   .courses-card img{
     width: 20vw;
+    height: 20vw;
     position: absolute;
     top:4vh;
     left:4vw;
@@ -725,7 +726,9 @@ footer span{
 
   .courses-card p{
     text-align: center;
-    margin-top: -24px;
+    position: absolute;
+    top: 3vh;
+    left: 8vw;
     font-size: 10px;
     z-index: 6;
 

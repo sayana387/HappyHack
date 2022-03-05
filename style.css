@@ -557,7 +557,7 @@ footer span{
     }
     header .bg-slider img{
         width: 65vw;
-        height: 18vw;
+        height: 20vw;
         position: absolute;
       
     }
@@ -570,7 +570,7 @@ footer span{
       font-size: 20px;
       position: absolute;
       top: 57vh;
-      left:18vw;
+      left:21vw;
       color: #fff;
     }
 

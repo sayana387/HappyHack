@@ -227,7 +227,7 @@
   }
 
   .courses{
-  height: 960px;
+ 
  
  
   }
@@ -243,6 +243,8 @@
     
     
   }
+
+ 
 
   .courses-cards1{
     display: flex;
@@ -267,38 +269,69 @@
 
   .courses-card{
  background:#ffffff no-repeat;
- width :11vw ;
- height:30vh;
- margin: 10px;
- padding: 60px 40px;
+ width :200px;
+ height:300px;
+ padding:20px;
  border-radius: 12px;
- position: relative;
- 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 20px;
  
  
 
   }
 
-  
-
-  .courses-card img{
-    margin: 0 28px;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top:7vh;
-    left:2vw;
-  
+  .courses-img{
+    width: 40%;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
  
+   }
+
+   .html
+  {
+    background-image: url("images/html.png");
   }
 
+  .css{
+    background-image: url("images/css.png");
+  }
+
+  .unity{
+    background-image: url("images/unity.png");
+  }
+
+  .ruby{
+    background-image: url("images/ruby.png");
+  }
+
+  .javascript{
+    background-image: url("images/js.png");
+  }
+
+  .swift{
+    background-image: url("images/swift.png");
+  }
+
+  .go{
+    background-image: url("images/go.png");
+  }
+
+
+
+ 
+ 
 
   .courses-card p{
     font-size: 12px;
     text-align: center;
     font-weight: bold;
-    margin: 10px;
-    padding-top: 110px;
+    margin: 20px;
+    padding-top: 20px;
     
   }
   .courses-card a{
@@ -318,9 +351,7 @@
     padding: 12px 30px;
     margin: 0px;
     border-radius: 14px;
-    position: absolute;
-    top:35vh;
-    left:1.75vw;
+   
    
     
     
@@ -336,9 +367,7 @@
     padding: 12px 30px;
     margin: 0px;
     border-radius: 12px;
-    position: absolute;
-    top:35vh;
-    left:1.75vw;
+  
   }
   .courses-card-a2:hover{
     box-shadow: 0 2px 15px 2px rgba(140, 140, 140, 0.4);
@@ -348,9 +377,7 @@
     padding: 12px 30px;
     margin: 0px;
     border-radius: 14px;
-    position: absolute;
-    top:35vh;
-    left:1.75vw;
+ 
   
   }
   .courses-card-a3:hover{
@@ -361,9 +388,7 @@
     padding: 12px 30px;
     margin: 0px;
     border-radius: 14px;
-    position: absolute;
-    top:35vh;
-    left:1.75vw;
+
   }
   .courses-card-a4:hover{
     box-shadow: 0 2px 15px 2px rgba(140, 140, 140, 0.4);
@@ -374,9 +399,7 @@
     padding: 12px 30px;
     margin: 0px;
     border-radius: 14px;
-    position: absolute;
-    top:35vh;
-    left:1.75vw;
+   
   }
   .courses-card-a5:hover{
     box-shadow: 0 2px 15px 2px rgba(140, 140, 140, 0.4);
@@ -387,9 +410,7 @@
     padding: 12px 30px;
     margin: 0px;
     border-radius: 14px;
-    position: absolute;
-    top:35vh;
-    left:1.75vw;
+    
   }
   .courses-card-a6:hover{
     box-shadow: 0 2px 15px 2px rgba(140, 140, 140, 0.4);
@@ -400,9 +421,7 @@
     padding: 12px 30px;
     margin: 0px;
     border-radius: 14px;
-    position: absolute;
-    top:35vh;
-    left:1.75vw;
+  
   }
   .courses-card-a7:hover{
     box-shadow: 0 2px 15px 2px rgba(140, 140, 140, 0.4);
@@ -714,11 +733,12 @@ footer span{
     position: relative;
   }
 
+  
  
 
   .courses-card img{
     width: 45%;
-    height: 25%;
+    height: 28%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

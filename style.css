@@ -742,10 +742,10 @@ footer span{
     padding: 6px 10px;
     margin: 5px;
     border-radius: 8px;
-    align-items: center;
+  
     position: absolute;
     top:23vh;
-   
+    left: 2vw;
     
    
   }
@@ -758,7 +758,7 @@ footer span{
     border-radius: 8px;
     position: absolute;
     top:23vh;
-    left:3vw;
+    left:2vw;
   }
 
   .courses-card-a3{
@@ -768,7 +768,7 @@ footer span{
     border-radius: 8px;
     position: absolute;
     top:23vh;
-    left:3vw;
+    left:2vw;
   
   }
 
@@ -779,7 +779,7 @@ footer span{
     border-radius: 8px;
     position: absolute;
     top:23vh;
-    left:3vw;
+    left:2vw;
   }
 
   .courses-card-a5{
@@ -789,7 +789,7 @@ footer span{
     border-radius: 8px;
     position: absolute;
     top:23vh;
-    left:3vw;
+    left:2vw;
   }
 
   .courses-card-a6{
@@ -799,7 +799,7 @@ footer span{
     border-radius: 8px;
     position: absolute;
     top:23vh;
-    left:3vw;
+    left:2vw;
   }
  
   .courses-card-a7{
@@ -809,7 +809,7 @@ footer span{
     border-radius: 8px;
     position: absolute;
     top:23vh;
-    left:3vw;
+    left:2vw;
   }
 
 

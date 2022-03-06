@@ -116,10 +116,11 @@
   
 
   .introduction-content1-pa{
-    text-align: left;
+ 
     width: 400px;
     margin: 20px;
-    position: relative;
+    align-items: center;
+    
   
   }
 
@@ -141,11 +142,9 @@
     background-repeat: 16px;
     border-radius: 12px;
     text-decoration: none;
-    text-align: center;
     color: #ffffff;
-    position: absolute;
-    top: 220px; ;
-    left: 120px;
+    margin: 0 auto;
+    
     
   }
 
@@ -153,6 +152,7 @@
     display: flex;
     justify-content:center;
     margin: 60px;
+    
   }
 
   .introduction-content2-image img{
@@ -162,10 +162,11 @@
   }
 
   .introduction-content2-pa{
-    text-align: left;
+   
     width: 400px;
     margin: 20px;
-    position: relative;
+    align-items: center;
+  
   }
 
   .introduction-content2-pa p{
@@ -188,10 +189,7 @@
     text-decoration: none;
     text-align: center;
     color: #ffffff;
-    position: absolute;
-    top: 220px; ;
-    left: 100px;
-    margin: 20px;
+    
   }
 
   .introduction-content1 a:hover{
@@ -212,7 +210,7 @@
     background-size:cover;
     position: relative;
     z-index: 1;
-    height: 960px;
+    
     
  
     
@@ -256,16 +254,8 @@
 
   }
 
-  .courses-cards2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center ;
-    position: relative;
-    z-index: 4;
-   
-   
-
-  }
+ 
+  
 
   .courses-card{
  background:#ffffff no-repeat;

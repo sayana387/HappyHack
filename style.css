@@ -214,10 +214,6 @@
     position: relative;
     z-index: 1;
    
-    
-    
- 
-    
   }
 
   canvas{
@@ -228,15 +224,8 @@
     
   }
 
-  .courses{
-   
-   
-
-    
- 
- 
- 
-  }
+  
+  
   .courses h2{
     text-align: center;
     font-size: 60px;
@@ -691,11 +680,7 @@ footer span{
       
     }
 
-    .courses{
-
-      height: 1360px;
-
-    }
+    
 
     #hoge{
   
@@ -703,7 +688,7 @@ footer span{
       background-size:cover;
       position: relative;
       z-index: 1;
-      height: 1360px;
+      
     }  
 
    .courses h2{
